@@ -1,6 +1,8 @@
 ## Vulnerable Node.js App (RCE)
 This is just example of Node.js app that contains RCE & just for education purpose only
 
+![Illustration of Node.js RCE](screenshots/illustration.png)
+
 ## Prerequisites
 - Docker
 - netcat, ncat, nc
