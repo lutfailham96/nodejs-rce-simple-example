@@ -9,8 +9,8 @@ app.get('/vulnerable-api', (req, res) => {
     try {
         // This is just example
         const query = req.query.q || "world";
-        res.send('Hello ' + eval(query));
-        console.log('Query: ' + query);
+        res.send('Ouch: ' + eval(query));
+        console.log('Ouch: ' + query);
     } catch(e) {
         console.log("Error occured!");
     }
