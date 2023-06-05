@@ -12,7 +12,7 @@ app.get('/vulnerable-api', (req, res) => {
         res.send('Ouch: ' + eval(query));
         console.log('Ouch: ' + query);
     } catch(e) {
-        res.send("I'm okay");
+        res.send("This API contains RCE vulnerability");
         console.log("Error occured!");
     }
 });
