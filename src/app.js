@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 
 app.get('/vulnerable-api', (req, res) => {
     try {
-        // This is just example
+        // This is just example vulnerable API endpoint
         const query = req.query.q || "world";
         res.send('Ouch: ' + eval(query));
         console.log('Ouch: ' + query);
