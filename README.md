@@ -19,3 +19,6 @@ This is just example of Node.js app that contains RCE & just for education purpo
 ## Information about RCE script & payload
 - `scripts/execute-rce-confidential-file.sh` - obtain confidential file on app
 - `scripts/execute-rce-session.sh` - obtain reverse shell session
+
+## PoC
+![PoC](screenshots/poc.png)
